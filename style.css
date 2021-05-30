@@ -1,0 +1,108 @@
+html {
+  background-image: linear-gradient(#e2c2b3, #fff3e8);
+  height: 100%;
+  font-family: Verdana, sans-serif;
+}
+header {
+  padding: 0;
+  top: 0;
+  margin-top: -20px;
+  margin-right: -10px;
+
+  position: relative;
+}
+#p1 {
+  border: 3px solid #ad2392;
+
+  padding: 10px;
+  margin: 10px;
+}
+
+#intro {
+  color: white;
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 600px;
+  text-align: center;
+  float: right;
+  margin-right: 10px;
+  background-color: #694735;
+
+  padding: 100px;
+  border-radius: 25px;
+}
+body {
+}
+
+#logo {
+}
+#phone {
+  text-align: right;
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+}
+#contact {
+  background-color: #96d6c3;
+}
+
+#navbar {
+  background-color: #96d6c3;
+  list-style-type: none;
+
+  margin-top: 0px;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 50px;
+}
+
+#hoo {
+  float: right;
+  color: white;
+  list-style-type: none;
+  margin: 0px;
+}
+
+#hoolist {
+}
+
+#navli {
+  display: inline;
+  float: left;
+
+  text-align: center;
+}
+
+#navli a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navli a:hover {
+  background-color: #dc8566;
+}
+
+img {
+  overflow: auto;
+}
+
+#book {
+  background-color: #403234;
+  color: white;
+  height: 15px;
+  width: 225px;
+  padding: 100px;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #96d6c3;
+  width: 100%;
+  position: absolute;
+  height: 60px;
+  bottom: 0;
+}

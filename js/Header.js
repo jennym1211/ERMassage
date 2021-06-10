@@ -21,9 +21,25 @@ headerTemplate.innerHTML = `
       <a href="#">Link 3</a>
     </div>
   </div>
-    <a href='contact.html'>Contact</a></li> 
-   <a href='about.html'>About</a></li>
+    
+
+
+  <div class="dropdown">
+  <button class="dropbtn"><a href="about.html">About</a>
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content">
+    <a href="contact.html">Contact Us</a>
+    <a href="policy.html">Massage Policies</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
+
+
+  
    <a href='book.html'>Book Appointment</a></li>
+
  </div>
  </div>
 `;

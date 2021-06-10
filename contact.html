@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html></html>
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/798e848e45.js" crossorigin="anonymous"></script>
 
@@ -12,27 +12,42 @@
   <header>
     
 
-    <div id="contact">
-        <p id="phone"> <i class="fas fa-phone"></i> 123-456-7890 <br> Hours of Operation:</p>
-        <center><p id="logo">
-            <a href="index.html"><img src="placeholder.png" height="200px" /></a></p></center>
-            <div id="headerNav"></div>
-        </div>
-
-       
+    <header-nav></header-nav>
   </header>
 
   <body> 
 
     <div id="container">
 
+      <center>
+
+      <form>
+
+        <input id="name" type="text" required placeholder="Full Name"><br>
+        <input id="email" type="text" required placeholder="Email"><br>
+
+        <br><br>
+
+        <textarea id="message" required placeholder="Please enter your message here" rows="4" cols="40"></textarea>
+        <br>
+
+        <button id="submit" type="submit">Submit</button>
+        <br>
+        <br>
+     
+        <h4>Or contact us by phone at 123-456-7890!</h4>
+
+      </form>
+    </center>
+
 
 </div>
 
   </body>
 
-  <footer>
+  <footer-nav>
 
-  </footer>
-  <script src="loadnav.js"></script>
+  </footer-nav>
+  <script src="js/Header.js"></script>
+  <script src="js/Footer.js"></script>
 </html>

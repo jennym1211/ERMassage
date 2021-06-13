@@ -7,40 +7,26 @@ headerTemplate.innerHTML = `
 
 <img id="logo" src="images/Escape & Revitalize Massage.png">
 
+<nav class="navbar">
+  <ul class="navlist">
+    <li class="navli"><a href='index.html'>Home</a></li>
+    <li class="navli"><a href="services.html">Services</a>
+      <ul class="dropdown" aria-label="submenu">
+      <li class="innerdrop"><a href="services.html">Services</a></li>
+        <li class="innerdrop"><a href="upgrades.html">Upgrade Options</a></li>
 
-<div class="navbar">
-    <a href='index.html'>Home</a></li>
- 
-  <div class="dropdown">
-    <button class="dropbtn"><a href="services.html">Services</a>
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="upgrades.html">Upgrade Options</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div>
-    
+      </ul>
+    </li>
+    <li class="navli">About
+    <ul class="dropdown" aria-label="submenu">
+      <li class="innerdrop"><a href="contact.html">Contact Us</a></li>
+      <li class="innerdrop"><a href="policy.html">Massage Policies</a></li>
 
-
-  <div class="dropdown">
-  <button class="dropbtn"><a href="about.html">About</a>
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-content">
-    <a href="contact.html">Contact Us</a>
-    <a href="policy.html">Massage Policies</a>
-    <a href="#">Link 3</a>
-  </div>
-</div>
-
-
-
-  
-   <a href='book.html'>Book Appointment</a></li>
-
- </div>
+    </ul>
+  </li>
+    <li class="navli"><a href='book.html'>Book Appointment</a></li>
+  </ul>
+</nav>
  </div>
 `;
 

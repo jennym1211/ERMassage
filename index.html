@@ -5,7 +5,7 @@
 
 <head>
     <link rel="stylesheet" href="css/style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/798e848e45.js" crossorigin="anonymous"></script>
 
 </head>
@@ -15,6 +15,26 @@
 <body>
 
     <header-nav></header-nav>
+
+    <div id="sidebar">
+        <div class="toggle-btn" onclick="toggleSidebar(this)">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="list">
+            <div class="navitem"> <i class="fas fa-home"></i> <a href='index.html'>Home</a></div>
+            <div class="navitem"> <i class="fas fa-spa"></i> <a href="services.html">Services</div>
+            <div class="navitem"><i class="fas fa-spa"></i> <a href="upgrades.html">Upgrade Options</a></div>
+            <div class="navitem"><i class="fas fa-phone"></i> <a href="contact.html">Contact Us</a></div>
+            <div class="navitem"><i class="fas fa-scroll"></i> <a href="policy.html">Policies/FAQ</a></div>
+            <div class="navitem"> <i class="far fa-calendar-check"></i> <a href='book.html'>Book Appointment</a></div>
+        </div>
+    </div>
+
+    <script>function toggleSidebar(ref) {
+            document.getElementById("sidebar").classList.toggle('active');
+        }</script>
 
     <div class="wrapper">
 
@@ -28,40 +48,43 @@
             Life gets busy, tough and unpredictable. You deserve all the time and self care you can dive on in to.
         </div>
 
-        <img id="bria" src="images/bria.png">
-
         <div id="about">
+            <img id="bria" src="images/bria.png">
 
+            <p id="abtpara">
+                <br>
             <h3>
                 Hi! My name is Brianna Jansen, I am the owner and massage therapist for Escape & Revitalize
                 Massage.
             </h3>
-            Wanting to pursue my passion for helping people, I originally attended Tarleton State University to become a
+            Wanting to pursue my passion for helping people, I originally attended Tarleton State University to
+            become a
             nurse,
-            but I decided to change career paths along the way. With the same goal in mind, in 2018, I got my massage
+            but I decided to change career paths along the way. With the same goal in mind, in 2018, I got my
+            massage
             license and have been practicing since.
 
             <br> <br>
 
-            I whole-heartedly believe that self-care is a huge MUST in the daily hustle and bustle of everyday life. I
-            know I'm new to the massage scene, but let my hands do the talking!
+            I whole-heartedly believe that self-care is a huge MUST in the daily hustle and bustle of everyday life.
+            I know I'm new to the massage scene, but let my hands do the talking!
 
             <br> <br>
 
             I specialize in deep tissue techniques, myofascial release and therapeutic techniques to bring you a
-            completely customized session. And for those that want to relax, don't worry I can do swedish for you too.
+            completely customized session. And for those that want to relax, don't worry I can do swedish for you
+            too.
             Hot towels are included in every massage for no extra charge.
 
             One massage does not fit all and with all the choices out there,
             I appreciate you choosing Escape & Revitalize Massage.
-
+            </p>
         </div>
 
     </div>
 
+    <footer-nav></footer-nav>
 </body>
-
-<footer-nav></footer-nav>
 
 <script src="js/Header.js"></script>
 <script src="js/Footer.js"></script>

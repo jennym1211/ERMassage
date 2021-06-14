@@ -5,7 +5,7 @@
 
 <head>
   <link rel="stylesheet" href="css/style.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/798e848e45.js" crossorigin="anonymous"></script>
 
 </head>
@@ -14,6 +14,26 @@
 
 <body>
   <header-nav></header-nav>
+
+  <div id="sidebar">
+    <div class="toggle-btn" onclick="toggleSidebar(this)">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="list">
+      <div class="navitem"> <i class="fas fa-home"></i> <a href='index.html'>Home</a></div>
+      <div class="navitem"> <i class="fas fa-spa"></i> <a href="services.html">Services</div>
+      <div class="navitem"><i class="fas fa-spa"></i> <a href="upgrades.html">Upgrade Options</a></div>
+      <div class="navitem"><i class="fas fa-phone"></i> <a href="contact.html">Contact Us</a></div>
+      <div class="navitem"><i class="fas fa-scroll"></i> <a href="policy.html">Massage Policies</a></div>
+      <div class="navitem"> <i class="far fa-calendar-check"></i> <a href='book.html'>Book Appointment</a></div>
+    </div>
+  </div>
+
+  <script>function toggleSidebar(ref) {
+      document.getElementById("sidebar").classList.toggle('active');
+    }</script>
   <div class="wrapper">
 
     <div class="grid-container">
@@ -21,7 +41,7 @@
 
         <h3>Aromatherapy</h3>
 
-        <img src="images/massage2.jpg" width="300px">
+        <img src="images/aroma.jpg" width="300px">
 
         <p class="service">The stuff that smells good! But it also has it's purposes. Add this to your session to
           further your relaxation or to get a quick boost.
@@ -37,7 +57,7 @@
 
         <h3>Sugar OR Salt Scrub:</h3>
 
-        <img src="images/1.jpg" width="300px">
+        <img src="images/scrub.jpg" width=" 300px">
 
         <p class="service"> Have some dead skin you want to get rid of or have smoother skin? Have no fear, scrubs are
           here! With two different options. Both do the job the same, the only difference is sugar is more gentle than
@@ -55,7 +75,7 @@
 
         <h3>Vibration Therapy</h3>
 
-        <img src="images/3.jpg" width="300px">
+        <img src="images/hypervolt.jpg" width="300px">
 
         <p class="service"> Have some stubborn tension that doesn't want to go away? This modality uses the Hypervolt to
           deliver targeted vibration therapy where you need it most.
@@ -91,9 +111,9 @@
     </div>
   </div>
 
-</body>
+  <footer-nav></footer-nav>
 
-<footer-nav></footer-nav>
+</body>
 
 <script src="js/Header.js"></script>
 <script src="js/Footer.js"></script>

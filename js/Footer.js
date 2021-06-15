@@ -8,8 +8,10 @@ footerTemplate.innerHTML = `
         <table id="hoo">
 
             <tr>
-                <th>Hours of Operation:</th>
+               <th><u> Hours of Operation</u></th>
+
             </tr>
+
             <tr>
                 <th>Mon & Tues:</th>
                 <td>Closed</td>
@@ -45,6 +47,9 @@ footerTemplate.innerHTML = `
             <td> <a href="policy.html">Policies/FAQ</a></td>
         </tr>
         <tr>
+        <td> <a href="book.html">Book Appointment</a></td>
+    </tr>
+        <tr>
             <td> <a href="contact.html">Contact Us</a></td>
         </tr>
 
@@ -54,6 +59,10 @@ footerTemplate.innerHTML = `
 
         <table id="contact">
 
+        <tr>
+        <th><u>Location</u></th>
+
+     </tr>
             <tr>
                 <th><i class="fas fa-phone"></i> 817-556-1349</th>
             </tr>
@@ -66,9 +75,19 @@ footerTemplate.innerHTML = `
             <tr>
                 <td>Bedford, TX, 76021</td>
             </tr>
+
+            <div class="fb-page" data-href="https://www.facebook.com/Escape-Revitalize-Massage-105590788431690" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Escape-Revitalize-Massage-105590788431690" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Escape-Revitalize-Massage-105590788431690">Escape &amp; Revitalize Massage</a></blockquote></div>
+
+
         </table>
 
+
+
+
+
     </div>
+
+
     <div id="copyright">
         &copy;2021 Escape & Revitalize Massage.
 

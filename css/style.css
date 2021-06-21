@@ -7,17 +7,11 @@ body {
     background-image: linear-gradient(#ba676d, #ffd0c8);
     margin: 0px auto;
     padding: 0px auto;
-
-
-
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-
     overflow-x: hidden;
 
 }
-
 
 hr
 {
@@ -39,7 +33,6 @@ th {
 td {
 
     text-align: left;
-
 
 }
 

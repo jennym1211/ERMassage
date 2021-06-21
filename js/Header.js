@@ -6,7 +6,7 @@ headerTemplate.innerHTML = `
 <link rel="stylesheet" href="css/style.css" />
 <div class="navcontainer">
 
-<img id="erlogo" src="images/Escape & Revitalize Massage.png">
+<img id="erlogo" src="images/Escape & Revitalize Massage.png" alt="Escape & Revitalize Logo">
 
 
     <nav class="navbar">

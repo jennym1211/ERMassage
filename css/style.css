@@ -19,6 +19,7 @@ h1 {
   padding: 10px;
   color: white;
 }
+
 th {
   text-align: left;
 }
@@ -314,6 +315,10 @@ ul.navlist li ul li {
   background-color: #381428;
 }
 
+.serv {
+  padding: 1em;
+}
+
 .serv a {
   text-decoration: none;
   color: white;
@@ -466,7 +471,7 @@ ul.navlist li ul li {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 350px 350px 350px;
+  grid-template-columns: 360px 360px 360px;
   grid-gap: 2em;
   padding: 5px;
 }

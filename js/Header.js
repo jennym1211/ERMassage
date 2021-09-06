@@ -31,6 +31,7 @@ headerTemplate.innerHTML = `
 
                 </ul>
             </li>
+            <li class="navli"><a href='specials.html'>Specials</a></li>
             <li class="navli"><a href='book.html'>Book Appointment</a></li>
         </ul>
     </nav>
@@ -45,8 +46,6 @@ headerTemplate.innerHTML = `
 `;
 
 headerTemplate.appendChild(navbarscript);
-
-
 
 class Header extends HTMLElement {
   constructor() {

@@ -75,6 +75,18 @@ footer {
 
 /* || Wrappers and Containers || */
 
+
+
+#special
+{
+  background-color: #57213f;
+  margin: 30px;
+  padding: 50px;
+  border-radius: 10px;
+  width: 50%;
+  text-align: center;
+}
+
 .wrapper {
   max-width: 100%;
   margin: 0px auto;

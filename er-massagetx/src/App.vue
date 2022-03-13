@@ -1,3 +1,58 @@
+<template>
+  <div id="app">
+<header>
+  <div class="navcontainer">
+ <img id="erlogo" v-bind:src="require('./assets/Escape & Revitalize Massage.png')" alt="Escape & Revitalize Logo" />
+ <b-nav>
+<ul class="navlist">
+            <li class="navli"><router-link to="/">Home</router-link> </li>
+            <li class="navli"><router-link to="/Services">Services</router-link>
+                <ul class="dropdown" aria-label="submenu">
+                    <li class="innerdrop"><router-link to="/Services">Services</router-link></li>
+                    <li class="innerdrop"><router-link to="/Upgrades">Upgrade Options</router-link></li>
+                </ul>
+            </li>
+            <li class="navli"> <router-link to="/Policies">Policies/FAQ</router-link></li>
+            <li class="navli"><router-link to="/Specials">Specials</router-link></li>
+            <li class="navli"><router-link to="/Book">Book Appointment</router-link></li>
+        </ul>
+ </b-nav>
+
+  </div>
+  </header>
+    <router-view></router-view>
+    <SiteFooter/>
+  </div>
+</template>
+
+
+<script>
+
+import SiteFooter from './components/SiteFooter.vue';
+
+export default {
+  name: 'App',
+   metaInfo: {
+      // if no subcomponents specify a metaInfo.title, this title will be used
+      title: 'Escape & Revitalize Massage - Bedford, TX',
+      // all titles will be injected into this template
+    },
+        htmlAttrs: {
+      lang: 'en-US'
+    },
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'description', content: 'Escape and Revitalize Massage is a small massage establishment located in Bedford, TX. Life gets busy, tough and unpredictable. You deserve all the time and self care you can dive on in to.' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+    ],
+  components: {
+    SiteFooter,
+  }
+}
+</script>
+
+<style>
+
 /* || General styles */
 
 html,
@@ -11,6 +66,12 @@ body {
   overflow-x: hidden;
 }
 
+a
+{
+    padding: 1em;
+  line-height: 2em;
+  font-size: 15px;
+}
 hr {
   border: 3px solid #381428;
 }
@@ -20,14 +81,9 @@ h1 {
   color: white;
 }
 
-th {
-  text-align: left;
+table td {
+    text-align: left;
 }
-
-td {
-  text-align: left;
-}
-
 header {
   padding-left: 1em;
   padding-right: 1em;
@@ -50,15 +106,14 @@ footer {
   left: 0;
   right: 0;
   background-color: #57213f;
-  padding-left: 1em;
-  padding-right: 1em;
+
   bottom: 0;
   overflow: hidden;
 }
 
 #copyright {
   background-color: #381428;
-  height: 20px;
+  height: 60px;
   width: 100%;
   overflow: hidden;
   padding: 10px;
@@ -67,10 +122,6 @@ footer {
   color: white;
 }
 
-#contactus {
-  margin-top: 5%;
-  margin-left: 37%;
-}
 
 /* || Wrappers and Containers || */
 
@@ -102,19 +153,29 @@ footer {
   list-style-type: none;
 }
 
+
+.fb-page
+{
+  float: right;
+width: 340px;
+margin-right: 0px auto;
+margin-top: 10px;
+vertical-align: top;
+}
+
 .foot-grid {
   display: grid;
   grid-template-columns: 21.875em 21.875em 21.875em 21.875em;
   margin: 2em 2em 2em 2em;
   overflow-x: none;
   grid-gap: 5em;
+    padding-left: 1em;
+  padding-right: 1em;
   padding: 2em;
 }
 
 .foot-grid > table {
   color: white;
-  text-align: right;
- padding: 2em;
 }
 
 #ftrlinks {
@@ -489,3 +550,5 @@ ul.navlist li ul li {
 }
 
 /* Mobile */
+
+</style>

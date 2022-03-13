@@ -10,7 +10,7 @@
             <br>
             <h3>Cancellation Policy </h3>
             Please provide at least 5 hours notice before your appointment that you won't be able to make it.<br>
-            I book my last available appointments at @ 7:00 PM (4:00 PM on Sundays) <br>Please, no walk-ins.<br>
+            My last available 1 hour appointments for the day are at @ 7:00 PM (4:00 PM on Sundays) <br>Please, no walk-ins.<br>
             Cancellations made within 5 hours before your appointment time will result in a 50% charge. No call, no
             shows will result in a 100% charge.<br>
             Please refer to <router-link to="/Policies">Policies/FAQ</router-link> for more information.

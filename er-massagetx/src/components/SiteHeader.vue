@@ -16,8 +16,7 @@
             <li class="navli"><router-link to="/Book">Book Appointment</router-link></li>
         </ul>
  </b-nav>
-
-  </div>
+ </div>
   </header>
 </template>
 <script>

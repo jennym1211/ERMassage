@@ -24,10 +24,7 @@
       </div>
     </div>
   </div>
-
-
 </body>
-
 </template>
 <script>
 export default {

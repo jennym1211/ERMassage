@@ -10,8 +10,7 @@
         </div>
         <div id="about">
             <img id="bria" v-bind:src="require('../assets/bria.png')" />
-
-            <p id="abtpara">
+           <p id="abtpara">
                 <br>
             <h3>
                 Hi! My name is Brianna Jansen, I am the owner and massage therapist for Escape & Revitalize
@@ -33,8 +32,7 @@
             Hot towels are included in every massage for no extra charge.
             One massage does not fit all and with all the choices out there,
             I appreciate you choosing Escape & Revitalize Massage.
-
-        </div>
+       </div>
     </div>
 </body>
 

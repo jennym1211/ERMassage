@@ -22,11 +22,8 @@
           </blockquote>
         </div>
     <div class="foot-grid">
-
-
-      <table id="hoo">
-
-        <tr>
+     <table id="hoo">
+       <tr>
           <td>Mon & Tues:</td>
           <td>Closed</td>
         </tr>
@@ -74,11 +71,7 @@
         </tr>
       </table>
  </div>
-
-
-
-
-    <div id="copyright">&copy;2021 Escape & Revitalize Massage.</div>
+   <div id="copyright">&copy;2021 Escape & Revitalize Massage.</div>
   </footer>
 </template>
 <script>

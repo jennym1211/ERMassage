@@ -31,7 +31,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@main
       - name: Sync files to hosting
-        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        uses: SamKirkland/FTP-Deploy-Action@2.0.0
         with: 
           server: ${{ secrets.ftp_server}}
           username: ${{ secrets.ftp_username }}

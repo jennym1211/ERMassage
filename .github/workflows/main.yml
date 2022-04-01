@@ -31,8 +31,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@main
       - name: Sync files to hosting
-        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        uses: SamKirkland/FTP-Deploy-Action@2.0.0
         with: 
-          server: ${{ secrets.ftp_server}}
-          username: ${{ secrets.ftp_username }}
-          password: ${{ secrets.ftp_password }}
+          ftp_server: ermassagetx.com
+          ftp_username: ${{ secrets.ftp_username }}
+          ftp_password: ${{ secrets.ftp_password }}
+          local_dir: dist/
+          port: 22

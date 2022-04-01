@@ -97,37 +97,3 @@ export default {
     },
 };
 </script>
-<style scoped>
- @media (max-width:1170px) {
-  #copyright { display:none;
-    }
- }
- .foot-grid {
-    display: grid;
-    margin: 2em 2em 2em 2em;
-    overflow-x: none;
-    grid-gap: 15px;
-    padding: 10px;
-  }
-  footer {
-  left: 0;
-  right: 0;
-  background-color: #57213f;
- bottom: 0;
-  overflow: scroll;
-}
-   .grid-container {
-    grid-template-columns: 1fr 3fr;
-   overflow-y: scroll;
-  }
-  #copyright {
-  background-color: #381428;
-  height: 60px;
-  width: 100%;
-  overflow: hidden;
-  padding: 10px;
-  left: 0;
-  bottom: 0;
-  color: white;
-}
-</style>

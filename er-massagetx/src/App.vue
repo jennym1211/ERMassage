@@ -63,6 +63,92 @@ form {
 label {
   padding-right: 24px;
 }
+   @media (max-width:815px) {
+      .navcontainer { display:none; }
+  #mobilenav
+    {
+    background: #57213f;
+    color: white;
+    transition: all 300ms linear;
+    }
+      #mobilenav a {
+    color: white;
+  }
+   #mobilenav.active {
+    left: 0px;
+    color: white;
+  }
+     #mobilenav .toggle-btn {
+    position: absolute;
+    background: #57213f;
+    padding: 1em;
+    left: 200px;
+    top: 0px;
+  }
+  #mobilenav .toggle-btn span {
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: white;
+    margin: 5px 0px;
+    cursor: pointer;
+  }
+   #mobilenav div.list div.navitem {
+    padding: 15px 10px;
+    border-bottom: 1px solid #444;
+    color: #fcfcfc;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+    }
+ @media (min-width:815px) {
+      #mobilenav { display:none; }
+    }
+    .navcontainer
+        {
+         padding-left: 1em;
+        padding-right: 1em;
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 100%;
+        position: relative;
+        }
+
+ @media (max-width:1170px) {
+  #copyright { display:none;
+    }
+ }
+ .foot-grid {
+    display: grid;
+    margin: 2em 2em 2em 2em;
+    overflow-x: none;
+    grid-gap: 15px;
+    padding: 10px;
+  }
+  footer {
+  left: 0;
+  right: 0;
+  background-color: #57213f;
+ bottom: 0;
+  overflow: scroll;
+}
+   .grid-container {
+    grid-template-columns: 1fr 3fr;
+   overflow-y: scroll;
+  }
+  #copyright {
+  background-color: #381428;
+  height: 60px;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+  left: 0;
+  bottom: 0;
+  color: white;
+}
+
+
 /* || Wrappers and Containers || */
 #special
 {
@@ -116,7 +202,7 @@ vertical-align: top;
   color: white;
   font-size: 20px;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width:815px) {
   /* || Navbar */
  .navcontainer {
     background-color: #57213f;
@@ -167,7 +253,7 @@ vertical-align: top;
    margin: 1em 2em 1em 20em;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width:815px) {
   #erlogo {
     display: none;
   }

@@ -7,7 +7,6 @@ import MassageSpecials from '../components/MassageSpecials.vue';
 import BusinessPolicies from '../components/BusinessPolicies.vue';
 import BookingPage from '../components/BookingPage.vue';
 Vue.use(VueRouter)
-
 const routes = [
   {
     path: '/',
@@ -40,10 +39,8 @@ const routes = [
     component: BookingPage
   }
 ]
-
 const router = new VueRouter({
   base: process.env.BASE_URL,
   routes
 })
-
 export default router

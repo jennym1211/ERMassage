@@ -5,10 +5,7 @@
     <SiteFooter/>
   </div>
 </template>
-
-
 <script>
-
 import SiteFooter from './components/SiteFooter.vue';
 import SiteHeader from './components/SiteHeader.vue';
 export default {
@@ -32,11 +29,8 @@ export default {
   }
 }
 </script>
-
 <style>
-
 /* || General styles */
-
 html,
 body {
   font-family: Verdana, sans-serif;
@@ -47,7 +41,6 @@ body {
   background-attachment: fixed;
   overflow-x: hidden;
 }
-
 a
 {
     padding: 1em;
@@ -57,57 +50,20 @@ a
 hr {
   border: 3px solid #381428;
 }
-
 h1 {
   padding: 10px;
   color: white;
 }
-
 table td {
     text-align: left;
 }
-header {
-  padding-left: 1em;
-  padding-right: 1em;
-  left: 0;
-  right: 0;
-  top: 0;
-  width: 100%;
- position: relative;
-}
-
 form {
   overflow: hidden;
 }
-
 label {
   padding-right: 24px;
 }
-
-footer {
-  left: 0;
-  right: 0;
-  background-color: #57213f;
- bottom: 0;
-  overflow: hidden;
-}
-
-#copyright {
-  background-color: #381428;
-  height: 60px;
-  width: 100%;
-  overflow: hidden;
-  padding: 10px;
-  left: 0;
-  bottom: 0;
-  color: white;
-}
-
-
 /* || Wrappers and Containers || */
-
-
-
 #special
 {
   background-color: #57213f;
@@ -117,7 +73,6 @@ footer {
   width: 50%;
   text-align: center;
 }
-
 .wrapper {
   max-width: 100%;
   margin: 0px auto;
@@ -125,16 +80,12 @@ footer {
   overflow: auto;
   max-width: 100%;
 }
-
 /* || UL and LI styles */
-
 #hoo,
 #contact {
   color: white;
   list-style-type: none;
 }
-
-
 .fb-page
 {
   float: right;
@@ -143,33 +94,28 @@ margin-right: 0px auto;
 margin-top: 10px;
 vertical-align: top;
 }
-
 .foot-grid {
   display: grid;
   grid-template-columns: 21.875em 21.875em 21.875em 21.875em;
-  margin: 2em 2em 2em 2em;
+  margin: 4em 4em 4em 4em;
   overflow-x: none;
   grid-gap: 5em;
     padding-left: 1em;
   padding-right: 1em;
   padding: 2em;
 }
-
 .foot-grid > table {
   color: white;
 }
-
 #ftrlinks {
   text-align: left;
  padding: 1em;
 }
-
 #ftrlinks a {
   text-decoration: none;
   color: white;
   font-size: 20px;
 }
-
 @media screen and (min-width: 600px) {
   /* || Navbar */
  .navcontainer {
@@ -221,7 +167,6 @@ vertical-align: top;
    margin: 1em 2em 1em 20em;
   }
 }
-
 @media screen and (max-width: 600px) {
   #erlogo {
     display: none;
@@ -233,83 +178,27 @@ vertical-align: top;
  .navbar {
     display: none;
   }
- #sidebar {
-    display: show;
-    position: absolute;
-    top: 0px;
-    left: -200px;
-    width: 200px;
-    height: 100%;
-    background: #57213f;
-    color: white;
-    transition: all 300ms linear;
-  }
- #sidebar a {
-    color: white;
-  }
-  #sidebar.active {
-    left: 0px;
-    color: white;
-  }
-  #sidebar .toggle-btn {
-    position: absolute;
-    background: #57213f;
-    padding: 1em;
-    left: 200px;
-    top: 0px;
-  }
-  #sidebar .toggle-btn span {
-    display: block;
-    width: 30px;
-    height: 5px;
-    background: white;
-    margin: 5px 0px;
-    cursor: pointer;
-  }
-  #sidebar div.list div.navitem {
-    padding: 15px 10px;
-    border-bottom: 1px solid #444;
-    color: #fcfcfc;
-    text-transform: uppercase;
-    font-size: 15px;
-  }
- .grid-container {
-    grid-template-columns: 1fr 3fr;
-   overflow-y: scroll;
-  }
- .foot-grid {
-    display: grid;
-    grid-template-columns: 2fr;
-    margin: 2em 2em 2em 2em;
-    overflow-x: none;
-    grid-gap: 15px;
-    padding: 10px;
-  }
  #booking {
     margin: 2em;
     overflow-x: scroll;
     word-wrap: break-word;
   }
 }
-
 .navli a {
   color: #fff;
   text-decoration: none;
   padding: 14px 16px;
 }
-
 li:hover.innerdrop,
 li:focus-within.innerdrop {
   background-color: #57213f;
  cursor: pointer;
 }
-
 li:focus-within a {
   outline: none;
   text-align: left;
   padding: 10px;
 }
-
 ul.navlist li.navli ul.dropdown {
   background-color: #995473;
   visibility: hidden;
@@ -324,7 +213,6 @@ ul.navlist li.navli ul.dropdown {
   left: 0;
   display: none;
 }
-
 ul.navlist li:hover.navli > ul.dropdown,
 ul.navlist li:focus-within > ul.dropdown,
 ul.navlist li ul:hover.dropdown,
@@ -333,42 +221,34 @@ ul.navlist li ul:focus.dropdown {
   opacity: 1;
   display: block;
 }
-
 ul.navlist li ul li {
   clear: both;
   width: 100%;
   padding: 5px;
 }
-
 /* Info Boxes and Grids */
-
 .prices {
   font-size: 15px;
   list-style: none;
   text-align: left;
   background-color: #381428;
 }
-
 .serv {
   padding: 1em;
 }
-
 .serv a {
   text-decoration: none;
   color: white;
 }
-
 .prices li::before {
   content: "\00BB \0020";
   font-size: 20px;
 }
-
 .service {
   font-size: 15px;
   text-align: left;
   padding: 25px;
 }
-
 .policy {
   background-color: #9a5473;
   margin: 30px;
@@ -378,9 +258,7 @@ ul.navlist li ul li {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
     0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
 }
-
 /* || Paragraph styles */
-
 #temp {
   margin: 1em 1em 1em 2em;
   padding: 5em;
@@ -388,35 +266,28 @@ ul.navlist li ul li {
   width: 12em;
   color: white;
 }
-
 .q {
   padding: 1em;
   font-size: 20px;
   font-style: bold;
 }
-
 .a {
   padding: 1em;
   line-height: 2em;
   font-size: 15px;
 }
-
-
-
 #phone {
   text-align: right;
   padding: 5px;
   color: white;
   font-size: 20px;
 }
-
 #info {
   text-align: center;
   font-size: 18px;
   line-height: 24px;
   width: 100%;
 }
-
 #booking {
   color: white;
   width: 100%;
@@ -428,11 +299,7 @@ ul.navlist li ul li {
   border-bottom: #7a3d64 solid 10px;
   padding: 5em 2em 5em 2em;
 }
-
-
-
 /* ||  Form styles */
-
 #name,
 #email {
   width: 400px;
@@ -444,7 +311,6 @@ ul.navlist li ul li {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
     0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
 }
-
 #message {
   width: 400px;
   border: none;
@@ -453,7 +319,6 @@ ul.navlist li ul li {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
     0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
 }
-
 #submit {
   background-color: #57213f;
   margin-top: 10px;
@@ -466,22 +331,18 @@ ul.navlist li ul li {
   display: inline-block;
   font-size: 16px;
 }
-
 #submit:hover {
   background-color: #e9c4fc;
   /* Green */
   color: white;
 }
-
 /* ||  Grid styles */
-
 .grid-container {
   display: grid;
   grid-template-columns: 360px 360px 360px;
   grid-gap: 2em;
   padding: 5px;
 }
-
 .grid-container > div {
   background-color: #8b4c70;
   color: white;
@@ -492,28 +353,20 @@ ul.navlist li ul li {
   padding: 20px 0;
  font-size: 30px;
 }
-
 /* ||  Image styles */
-
 #erlogo {
   margin-left: 35%;
   height: 300px;
 }
-
 #sale {
   margin-left: 30%;
 }
-
-
-
 #logo {
   margin: auto;
   margin-left: 40%;
   height: 300px;
 }
-
 /* Buttons */
-
 #bookbtn {
   background-image: linear-gradient(#7f00ff, #e100ff);
   font-family: "Roboto", sans-serif;
@@ -529,7 +382,5 @@ ul.navlist li ul li {
   border-radius: 25px;
   color: #fff;
 }
-
 /* Mobile */
-
 </style>
